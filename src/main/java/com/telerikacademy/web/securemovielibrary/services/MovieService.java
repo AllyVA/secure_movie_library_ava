@@ -1,15 +1,15 @@
-package com.telerikacademy.web.securemovielibrary.repositories;
+package com.telerikacademy.web.securemovielibrary.services;
 
 import com.telerikacademy.web.securemovielibrary.models.Movie;
 
 import java.util.List;
 
-public interface MovieRepository {
+public interface MovieService {
     List<Movie> get();
 
     Movie get(int id);
 
-    List<Movie> search(String keyword);
+    List<Movie> search(String title);
 
     void create(Movie movie);
 

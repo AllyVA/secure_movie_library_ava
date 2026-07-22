@@ -1,7 +1,7 @@
 package com.telerikacademy.web.securemovielibrary.exceptions;
 
-public class EntityNotFoundException extends RuntimeException {
-    public EntityNotFoundException(String type) {
+public class MovieNotFoundException extends RuntimeException {
+    public MovieNotFoundException(String type) {
         super(String.format("%s not found.", type));
     }
 }
