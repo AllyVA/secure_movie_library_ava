@@ -20,10 +20,10 @@ public class Movie {
     private String movieDirector;
 
     @Column(name = "movie_release_year")
-    private int movieReleaseYear;
+    private Integer movieReleaseYear;
 
     @Column(name = "movie_rating")
-    private double movieRating;
+    private Double movieRating;
 
     public Movie() {
     }
@@ -52,19 +52,19 @@ public class Movie {
         this.movieDirector = movieDirector;
     }
 
-    public int getMovieReleaseYear() {
+    public Integer getMovieReleaseYear() {
         return movieReleaseYear;
     }
 
-    public void setMovieReleaseYear(int movieReleaseYear) {
+    public void setMovieReleaseYear(Integer movieReleaseYear) {
         this.movieReleaseYear = movieReleaseYear;
     }
 
-    public double getMovieRating() {
+    public Double getMovieRating() {
         return movieRating;
     }
 
-    public void setMovieRating(double movieRating) {
+    public void setMovieRating(Double movieRating) {
         this.movieRating = movieRating;
     }
 
